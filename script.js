@@ -15,3 +15,18 @@ function CalculateTringle(){
     TAS.innerText = tringleArea + ' ' ; 
 
 }
+
+function CalculateRectangle(){
+    const RW = document.getElementById('inputRW')
+    const RWtext = RW.value;
+    const iRW = parseFloat(RWtext) ;
+    
+    const RI = document.getElementById('inputhRI')
+    const RIText = RI.value ;
+    const iRH = parseFloat(RIText)
+
+    const rectangle = iRW * iRH;
+
+    const RectArea = document.getElementById('RA')
+    RectArea.innerText = rectangle + ' '; 
+}

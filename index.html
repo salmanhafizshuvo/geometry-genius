@@ -47,19 +47,27 @@
                             </div>
                           </div>
 
-                          <div class="card w-96 bg-base-100 shadow-xl">
+                        <div class="card w-96 bg-base-100 shadow-xl">
                             <figure><img src="images/rectangle.png" alt="Shoes" /></figure>
                             <div class="card-body">
-                              <h2 class="card-title">rectangle!</h2>
-                                <p>Area (A) = w X I</p>
-                                <div>
-                                    <input type="text" name="" id="">
-                                </div>
-                              <div class="card-actions justify-end">
-                                <button class="btn btn-primary">Buy Now</button>
+                              <h2 class="card-title mx-auto">rectangle!</h2>
+                              <p class="text-center"> Area (A) = W X I </p>
+                              <div class="flex gap-3 items-center justify-center">
+                                <input type="text" class="w-24" placeholder="W" id="inputRW">
+                                <span>cm</span>
+                                <input type="text" class="w-24" placeholder="I" id="inputhRI">
+                                <span>cm</span>
+                              </div>
+                              <div class=" m-auto ">
+                                <span>Area: </span> <span id="RA"></span><span>cm</span><sup>2</sup>
+                              </div>
+                              <div class="card-actions ">
+                                <button class="btn btn-primary w-full" onclick="CalculateRectangle()">Calculate</button>
                               </div>
                             </div>
                           </div>
+
+                         
                           <div class="card w-96 bg-base-100 shadow-xl">
                             <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
                             <div class="card-body">
